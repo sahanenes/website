@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Audiowide',
+        cursive;
+}
+
+h2 {
+    color: white;
+    font-size: 30px;
+}
+
+
+
+
+
+span {
+    color: red;
+}
+
+.header {
+    background-color: black;
+    height: 5rem;
+    border-bottom: 5px solid red;
+}
+
+.container {
+    margin: auto;
+    padding: 1rem;
+    width: 100%;
+
+
+}
+
+
+
+.header .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+}
+
+.header li {
+    display: inline;
+    padding: 0 1.5rem;
+    
+}
+
+.margin {
+
+    background-color: aqua;
+    width: 50%;
+    height: 10rem;
+    margin: auto;
+    margin-top: 2rem;
+    border: 10px solid black;
+    border-radius: 10px;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.desc {
+
+    text-align: center;
+
+}
+
+.desc h1 {
+    padding-bottom: 1rem;
+    color: white;
+
+}
+
+.desc p {
+
+    color: white;
+}
+
+.main {
+
+
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url(https://sergiotaco.github.io/html-css-workshop/images/banner.jpg);
+    background-size: cover;
+
+}
+.nav ul li a:hover{
+    background-color: firebrick;
+    border-radius: 3px;
+}
